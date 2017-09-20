@@ -1,6 +1,5 @@
-
 ---
-title: "PA1_template"
+title: "week2assigment"
 author: "Victor Coelho"
 date: "11 de setembro de 2017"
 output: 
@@ -70,5 +69,4 @@ r <- ggplot(Fplot, aes(time, steps)) + geom_line() + ggtitle("Average steps per 
 ggplot(Fplot, aes(time, steps)) + geom_line() + ggtitle("Average steps per time interval: weekdays vs. weekends") + xlab("Time") + ylab("Steps")
 ggplot(Fplot, aes(time, steps)) + geom_line() + ggtitle("Average steps per time interval: weekdays vs. weekends") + xlab("Time") + ylab("Steps") + facet_grid(daytype ~.)
 ```
-
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
